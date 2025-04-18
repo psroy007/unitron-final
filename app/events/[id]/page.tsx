@@ -675,7 +675,7 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Secrets hide in plain sight—can you trace the unseen thread before it coils around you?",
-      image: "/images/web-of-hints.jpg",
+      image: "/events/web-of-hints.jpg",
       rulebook: "/rulebooks/web_of_hints.pdf",
       longDescription:
         "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
