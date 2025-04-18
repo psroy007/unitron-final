@@ -145,7 +145,7 @@ export default function EventsPage() {
         image: "/events/bgmi.jpg",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "According to rulebook",
@@ -162,7 +162,7 @@ export default function EventsPage() {
       image: "/events/freefire.jpg",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "According to rulebook",
@@ -179,7 +179,7 @@ export default function EventsPage() {
       image: "/events/callofduty.jpg",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "5 members",
@@ -196,7 +196,7 @@ export default function EventsPage() {
       image: "/events/fifa.jpg",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "Individual",
@@ -213,7 +213,7 @@ export default function EventsPage() {
       image: "/events/pes.jpg",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "3 members atleast, Maximum 4",
@@ -230,7 +230,7 @@ export default function EventsPage() {
       image: "/events/valorant.jpg",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "5 members",
@@ -247,7 +247,7 @@ export default function EventsPage() {
       image: "/events/asphalt8.jpg",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "Individual",
@@ -264,7 +264,7 @@ export default function EventsPage() {
       image: "/events/uno.png",
       longDescription:
         "When Spidey's friends and foes gather around a table, expect chaos! Skip turns, reverse fates, and unleash the dreaded '+4' as you battle to be the ultimate Uno champion. Every move might just open a new dimension!",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "4 members",
@@ -281,7 +281,7 @@ export default function EventsPage() {
       image: "/events/8-ball-pool.avif",
       longDescription:
         "Spider-Man's agility isn't just for swinging—it's for pool too! Test your angles, master trick shots, and outplay your rivals in a thrilling 8 Ball Pool tournament where the best cue artists reign supreme.",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "Individual",
@@ -298,7 +298,7 @@ export default function EventsPage() {
       image: "/events/subway.png",
       longDescription:
         "In a world where reality keeps shifting, the only way to survive is to keep running! Dash across iconic Subway Surfers maps with Spidey speed, avoiding obstacles and collecting power-ups to stay ahead of the chase.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
       team: "Individual",
