@@ -98,8 +98,8 @@ export default function EventsSection() {
       image: "../images/web_slingers.jpg?height=400&width=600",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
-      date: "May 2",
-      time: "10:00 AM - 10:00 AM (next day)",
+      date: "May 3",
+      time: "10:00 AM - 2:30 PM",
       venue: "College Campus",
       team: "2-3 members",
     },
