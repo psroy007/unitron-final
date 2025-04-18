@@ -103,6 +103,23 @@ export default function EventsSection() {
       venue: "College Campus",
       team: "2-3 members",
     },
+    {
+      id: 8,
+      title: "CTF-Verse",
+      category: "Coding",
+      description:
+        "Hackers from the Spider-Verse are breaching realities! Use your cyber skills to crack codes, decrypt messages, and outsmart villains in this ultimate Capture the Flag challenge. Only the smartest web-heads can restore balance!",
+      image: "/images/ctf.jpg?height=400&width=600",
+      longDescription:
+        "The multiverse is under attack! A sinister cyber-villain is tampering with digital dimensions, leaving cryptic clues across cyberspace. As a cyber-Spidey, your mission is to track down vulnerabilities, decrypt codes, and recover lost data before chaos consumes the Spider-Verse. Do you have what it takes to web your way to victory?",
+      date: "May 4",
+      time: "10:00 AM - 01:00 PM",
+      venue: "College Campus",
+      team: "1-2 Members",
+      registration: "₹80",
+      prizes: "1st: ₹500, 2nd: ₹300",
+      featured: true,
+    },
   ]
 
   const containerVariants = {
