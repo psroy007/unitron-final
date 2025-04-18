@@ -936,7 +936,7 @@ export default function EventDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="relative aspect-[23/11]">
+            <div className="relative aspect-[23/18]">
               <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-spider-dark via-spider-dark/70 to-transparent"></div>
 
