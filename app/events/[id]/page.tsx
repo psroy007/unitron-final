@@ -936,7 +936,7 @@ export default function EventDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="relative aspect-[23/18]">
+            <div className="relative aspect-[23/16]">
               <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-spider-dark via-spider-dark/70 to-transparent"></div>
 
@@ -970,12 +970,12 @@ export default function EventDetailPage() {
               
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
-                  <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">ABOUT THE EVENT</h2>
+                  <h2 className="mt-8 mb-8 text-2xl font-bold text-spider-red font-comic">ABOUT THE EVENT</h2>
                   <p className="text-white">{event.longDescription}</p>
                 </div>
               </div>
 
-              <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
+              <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
                   <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">RULES & GUIDELINES</h2>
                   <ul className="space-y-2 text-white">
@@ -1007,10 +1007,10 @@ export default function EventDetailPage() {
                 {/* </div> */}
               {/* </div> */}
 
-              <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
+              <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
-                  <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">EVENT COORDINATORS</h2>
-                  <div className="space-y-4">
+                  <h2 className="mb-2 text-2xl font-bold text-spider-red font-comic">EVENT COORDINATORS</h2>
+                  <div className="mb-4 space-y-4">
                     {event.coordinators.map((coordinator: any, index: number) => (
                       <div key={index} className="flex items-center">
                         <div className="w-10 h-10 mr-4 bg-spider-red rounded-full flex items-center justify-center text-white font-bold">
@@ -1034,7 +1034,7 @@ export default function EventDetailPage() {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <div className="sticky top-24">
-                <div className="p-6 mb-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
+                <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   <div className="relative z-10">
                     <h2 className="mb-4 text-xl font-bold text-spider-red font-comic">EVENT DETAILS</h2>
 
@@ -1090,7 +1090,7 @@ export default function EventDetailPage() {
                   </div>
                 </div>
 
-                <div className="p-6 mb-6 text-center bg-spider-red border-2 border-white rounded-lg">
+                <div className="p-6 mt-8 mb-8 text-center bg-spider-red border-2 border-white rounded-lg">
                   <h3 className="mb-2 text-xl font-bold text-white font-comic">Download Rule Book</h3>
                   <button 
                     className="w-full px-4 py-2 font-bold text-spider-red bg-white rounded-md hover:bg-gray-100 transition-colors" 
@@ -1103,7 +1103,7 @@ export default function EventDetailPage() {
                 <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   <div className="relative z-10">
                     <h3 className="mb-4 text-xl font-bold text-spider-red font-comic">SHARE</h3>
-                    <div className="flex justify-center mt-12 space-x-6">
+                    <div className="flex justify-center mt-4 mb-8 space-x-6">
                       <a
                         href="https://www.facebook.com/unitron.fit"
                         target="_blank"
