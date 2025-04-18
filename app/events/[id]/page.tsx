@@ -202,7 +202,7 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/web-slingers.pdf",
       longDescription:
         "Dive into the multiverse of web development! In this challenge, participants will create a fully responsive website based on a theme revealed at the start of the competition. You'll have 24 hours to design, code, and deploy your creation. Judges will evaluate your work based on design aesthetics, code quality, responsiveness, and creative implementation of the theme. Bring your HTML, CSS, and JavaScript skills to swing through this challenge!",
-      date: "May 2",
+      date: "May 3",
       time: "10:00 AM - 2:30 PM",
       venue: "College Campus",
       team: "2-3 members",
@@ -236,7 +236,7 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/code-dimension.pdf",
       longDescription:
         "Enter a dimension where algorithms reign supreme! Code Dimension is an intense competitive coding contest where participants will face increasingly difficult programming challenges across multiple rounds. Each round represents a different dimension with unique problem-solving requirements. From time complexity optimization to space-efficient solutions, you'll need to adapt quickly to survive each dimension. Only the most versatile coders will make it to the final round!",
-      date: "May 2-3",
+      date: "May 2",
       time: "12:00 PM - 2:00 PM",
       venue: "College Campus",
       team: "Individual",
