@@ -37,7 +37,7 @@ export default function EventDetailPage() {
   const events = [
     {
       id: 1,
-      title: "Robo Combat (Weapon)",
+      title: "Robo Combat (8kg)",
       category: "Robotics",
       description:
         "Design a monster, not a machine — and let it feast on metal in the pit.",
@@ -118,7 +118,7 @@ export default function EventDetailPage() {
       featured: false,
       rules: [
         "The team should consist of 2 to 4 members.",
-        "Weight should not exceed 3.0 kg.",
+        "Weight should not exceed 3.0 kg with 5% tolerance.",
         "Voltage: Maximum 18 volts, 10 Amps. Above 18 Volts and 10 Amps will not be allowed.",
         "Unethical behaviour could lead to disqualification.",
         "Faculty coordinators have all the rights to take final decisions for any matter during the event .",
@@ -305,10 +305,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/bgmi.pdf",
       longDescription:
         "In an alternate dimension, chaos reigns, and only the strongest Spideys will survive! Join the ultimate battle royale where precision, teamwork, and strategy determine who swings to victory. Will you emerge as the last Spidey standing, or will you be lost in the collapsing multiverse?",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "According to rulebook",
       registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
       prizes: "BR: ₹6000 | TDM: Game Card",
       featured: false,
@@ -343,10 +343,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/free_fire.pdf",
       longDescription:
         "The Spider-Verse is under siege, and only the fastest, smartest, and most agile warriors can defend it! In this high-speed survival showdown, dodge enemy fire, swing into action, and prove your supremacy in an epic Free Fire tournament.",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "According to rulebook",
       registration: "BR: ₹200 (TTT - ₹160) | TDM: Game Card",
       prizes: "BR: ₹4000 | TDM: Game Card",
       featured: false,
@@ -381,10 +381,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/codm.pdf",
       longDescription:
         "When villains from multiple dimensions join forces, it's up to you to stop them! Enter an intense Call of Duty showdown where strategy, precision, and web-enhanced reflexes are key. Whether in deathmatch, search and destroy, or battle royale, every shot counts in this war for the multiverse.",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "5 members",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
@@ -415,20 +415,18 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/fifa.pdf",
       longDescription:
         "Football isn't just a game—it's a battle across dimensions! Lace up and take control of your team as you dribble past defenders, curve the ball like a web-line, and strike powerful goals in a FIFA Mobile tournament where champions are made.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
-      registration: "1v1: Game Card | Tournament: ₹50",
-      prizes: "1v1: Game Card | Tournament: ₹1000",
+      team: "1v1",
+      registration: "1v1: Game Card",
+      prizes: "1v1: Game Card",
       featured: false,
       rules: [
-        "Participants can compete individually or in teams of up to 3 members.",
-        "The CTF will include challenges in cryptography, web exploitation, reverse engineering, and network security.",
-        "Points will be awarded based on the difficulty of the challenges solved.",
-        "Hints will be available, but using them will reduce the points earned for that challenge.",
-        "Any attempt to attack the CTF infrastructure or other teams will result in disqualification.",
-        "The team with the most points at the end of the competition wins.",
+        "Match Settings: Standard Settings",
+        "Match Duration: 10 minutes (5 minutes per half)",
+        "Game Speed: Normal | Level: Legendary | Injuries: off | Competitive Mode: On Analog Sprint: Off | Camera: Tele broadcast",
+        "After the completion of a match, the score must be reported to a tournament administrator. If there is a dispute with a match score or result, a tournament administrator must be contacted immediately the organizer's decision will be final.",
       ],
       coordinators: [
         { name: "Sayan Maity", contact: "+91 85838 17241" },
@@ -449,10 +447,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/pes.pdf",
       longDescription:
         "In this dimension, football has a Spider-Man twist! Experience precision gameplay and show off your dribbling skills as you face off against the best PES players. Will your team weave the perfect web of passes to victory?",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "3 members atleast, Maximum 4",
       registration: "₹200 (TTT - ₹160)",
       prizes: "₹6000",
       featured: false,
@@ -483,20 +481,20 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/valorant.pdf",
       longDescription:
         "The villains of the Spider-Verse are infiltrating every reality! As elite agents, you and your team must take them down using strategy, precise shots, and lightning-fast reflexes. Every round is a battle for survival—make every ability count!",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "5 members",
       registration: "₹200 (TTT - ₹160)",
       prizes: "₹6000",
       featured: false,
       rules: [
-        "All the matches will be played on the Technical Fest dates i.e. 19th and 20th April 2024.",
-        "Prelims will be played on 2ND in online mode.",
-        "Semis and finals will be hosted on 3RD in LAN mode.",
-        "The captain of each team must check in for their match 15 minutes before their scheduled match time. Failure to do so could result in losing “in-game pause time” or disqualification.",
+        "All the matches will be played on the Technical Fest dates i.e. 2nd and 3rd May 2025 in online mode.",
+        "Prelims will be played on 2nd May.",
+        "Semis and finals will be hosted on 3rd May.",
+        "The captain of each team must check in for their match 15 minutes before their scheduled match time.",
+        "Failure to do so could result in losing “in-game pause time” or disqualification.",
         "Any team that checks in on time but fails to join the lobby more than 10 minutes after the scheduled start time, will be disqualified.",
-        "Tournament Mode: On Overtime: On Server Region: Mumbai",
       ],
       coordinators: [
         { name: "Chandrima Ganguly", contact: "+91 62916 46552" },
@@ -517,20 +515,19 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/asphalt8.pdf",
       longDescription:
         "When different dimensions collide, only the fastest racers can navigate the chaos! Blaze through impossible tracks, pull off gravity-defying stunts, and cross the finish line in an adrenaline-fueled race through the Spider-Verse.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
-        "Participants can compete individually or in teams of up to 3 members.",
-        "The CTF will include challenges in cryptography, web exploitation, reverse engineering, and network security.",
-        "Points will be awarded based on the difficulty of the challenges solved.",
-        "Hints will be available, but using them will reduce the points earned for that challenge.",
-        "Any attempt to attack the CTF infrastructure or other teams will result in disqualification.",
-        "The team with the most points at the end of the competition wins.",
+        "You will be given overall 2 to 3 minutes to assign the keys and a final check by playing the game.",
+        "Performance tuning will be turned OFF for all participants.",
+        "It will be a 1 v 1 match, means the participant who will finish the laps in less time than the other, will be selected as winner.",
+        "If there is a LAN failure or ‘tie’ situation the participants are requested to follow the decision of the gaming head coordinators which will be taken as FINAL.",
+        "ONLY the participants will be allowed inside the competition are. NO other person will be allowed to enter the area.",
       ],
       coordinators: [
         { name: "Sayan Maity", contact: "+91 85838 17241" },
@@ -551,10 +548,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/uno.pdf",
       longDescription:
         "When Spidey's friends and foes gather around a table, expect chaos! Skip turns, reverse fates, and unleash the dreaded '+4' as you battle to be the ultimate Uno champion. Every move might just open a new dimension!",
-      date: "May 3",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "4 members",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
@@ -585,10 +582,10 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/pool.pdf",
       longDescription:
         "Spider-Man's agility isn't just for swinging—it's for pool too! Test your angles, master trick shots, and outplay your rivals in a thrilling 8 Ball Pool tournament where the best cue artists reign supreme.",
-      date: "May 4",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
@@ -618,20 +615,19 @@ export default function EventDetailPage() {
       rulebook: "/rulebooks/subway.pdf",
       longDescription:
         "In a world where reality keeps shifting, the only way to survive is to keep running! Dash across iconic Subway Surfers maps with Spidey speed, avoiding obstacles and collecting power-ups to stay ahead of the chase.",
-      date: "May 2",
+      date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
       rules: [
-        "Participants can compete individually or in teams of up to 3 members.",
-        "The CTF will include challenges in cryptography, web exploitation, reverse engineering, and network security.",
-        "Points will be awarded based on the difficulty of the challenges solved.",
-        "Hints will be available, but using them will reduce the points earned for that challenge.",
-        "Any attempt to attack the CTF infrastructure or other teams will result in disqualification.",
-        "The team with the most points at the end of the competition wins.",
+        "Participants will play individually.",
+        "The registration will be done offline.",
+        "Game will be played on personal device.",
+        "If game is found modded, the player will be disqualified.",
+        "Player with the maximum coins and distance will win the game.",
       ],
       coordinators: [
         { name: "Sayan Maity", contact: "+91 85838 17241" },
@@ -679,14 +675,14 @@ export default function EventDetailPage() {
       category: "Non-Tech",
       description:
         "Secrets hide in plain sight—can you trace the unseen thread before it coils around you?",
-      image: "/images/web-of-hints.jpg",
+      image: "/events/web-of-hints.jpg",
       rulebook: "/rulebooks/web_of_hints.pdf",
       longDescription:
         "Villains have stolen a priceless artifact, and only the sharpest minds can recover it! Follow a web of clues, crack riddles, and navigate through obstacles as you uncover the lost secrets of the Spider-Verse.",
       date: "May 2, May 4",
       time: ["Prelims: 02:30 PM - 4:00 PM", " Finals: 11:00 AM - 01:00 PM"],
       venue: "College Campus",
-      team: "1-3 members",
+      team: "4 members",
       registration: "₹200 (TTT - ₹150)",
       prizes: "₹3000",
       featured: false,
@@ -722,7 +718,7 @@ export default function EventDetailPage() {
       date: "May 3-4",
       time: ["Prelims: 12:00 PM - 2:00 PM", " Finals: 03:00 PM - 04:30 PM"],
       venue: "College Campus",
-      team: "1-3 members",
+      team: "3 members",
       registration: "₹150",
       prizes: "₹1000",
       featured: false,
@@ -756,7 +752,7 @@ export default function EventDetailPage() {
       date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "₹30",
       prizes: "Trophy",
       featured: false,
@@ -790,7 +786,7 @@ export default function EventDetailPage() {
       date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "No Fees",
       prizes: "Trophy",
       featured: false,
@@ -824,7 +820,7 @@ export default function EventDetailPage() {
       date: "May 2-4",
       time: "10:00 AM - 8:00 PM",
       venue: "College Campus",
-      team: "1-3 members",
+      team: "Individual",
       registration: "Game Card",
       prizes: "Game Card",
       featured: false,
@@ -858,7 +854,7 @@ export default function EventDetailPage() {
       date: "May 2-3",
       time: ["Prelims: 12:30 PM - 02:00 PM", "Finals: 10:00 AM - 11:30 AM"],
       venue: "College Campus",
-      team: "1-3 members",
+      team: "4 members",
       registration: "₹160 (TTT - ₹100)",
       prizes: "Trophy",
       featured: false,
@@ -940,7 +936,7 @@ export default function EventDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="relative aspect-[23/11]">
+            <div className="relative aspect-[23/16]">
               <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-spider-dark via-spider-dark/70 to-transparent"></div>
 
@@ -974,12 +970,12 @@ export default function EventDetailPage() {
               
               <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
-                  <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">ABOUT THE EVENT</h2>
+                  <h2 className="mt-8 mb-8 text-2xl font-bold text-spider-red font-comic">ABOUT THE EVENT</h2>
                   <p className="text-white">{event.longDescription}</p>
                 </div>
               </div>
 
-              <div className="p-6 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
+              <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
                   <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">RULES & GUIDELINES</h2>
                   <ul className="space-y-2 text-white">
@@ -1011,10 +1007,10 @@ export default function EventDetailPage() {
                 {/* </div> */}
               {/* </div> */}
 
-              <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
+              <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                 <div className="relative z-10">
-                  <h2 className="mb-4 text-2xl font-bold text-spider-red font-comic">EVENT COORDINATORS</h2>
-                  <div className="space-y-4">
+                  <h2 className="mb-2 text-2xl font-bold text-spider-red font-comic">EVENT COORDINATORS</h2>
+                  <div className="mb-4 space-y-4">
                     {event.coordinators.map((coordinator: any, index: number) => (
                       <div key={index} className="flex items-center">
                         <div className="w-10 h-10 mr-4 bg-spider-red rounded-full flex items-center justify-center text-white font-bold">
@@ -1038,7 +1034,7 @@ export default function EventDetailPage() {
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <div className="sticky top-24">
-                <div className="p-6 mb-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
+                <div className="p-6 mt-8 mb-8 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   <div className="relative z-10">
                     <h2 className="mb-4 text-xl font-bold text-spider-red font-comic">EVENT DETAILS</h2>
 
@@ -1094,7 +1090,7 @@ export default function EventDetailPage() {
                   </div>
                 </div>
 
-                <div className="p-6 mb-6 text-center bg-spider-red border-2 border-white rounded-lg">
+                <div className="p-6 mt-8 mb-8 text-center bg-spider-red border-2 border-white rounded-lg">
                   <h3 className="mb-2 text-xl font-bold text-white font-comic">Download Rule Book</h3>
                   <button 
                     className="w-full px-4 py-2 font-bold text-spider-red bg-white rounded-md hover:bg-gray-100 transition-colors" 
@@ -1107,7 +1103,7 @@ export default function EventDetailPage() {
                 <div className="p-6 bg-spider-dark-blue/20 rounded-lg comic-panel">
                   <div className="relative z-10">
                     <h3 className="mb-4 text-xl font-bold text-spider-red font-comic">SHARE</h3>
-                    <div className="flex justify-center mt-12 space-x-6">
+                    <div className="flex justify-center mt-4 mb-8 space-x-6">
                       <a
                         href="https://www.facebook.com/unitron.fit"
                         target="_blank"
@@ -1190,7 +1186,6 @@ export default function EventDetailPage() {
     </main>
   )
 }
-
 
 
 
