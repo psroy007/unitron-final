@@ -210,7 +210,7 @@ export default function EventDetailPage() {
       venue: "College Campus",
       team: "2-3 members",
       registration: "₹120",
-      prizes: "1st: ₹600, 2nd: ₹400",
+      prizes: "1st: ₹600,
       featured: true,
       rules: [
         "All team members must be registered participants of Unitron 2025.",
